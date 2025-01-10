@@ -11,8 +11,6 @@ export function UserSummary() {
     queryFn: fetchUsers,
   });
 
-  console.log('UserSummary');
-
   return (
     <div>
       <h1>User Summary</h1>
