@@ -1,9 +1,11 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <meta name="description" content="Learn Next.js Page Router" />
+      </Head>
       <body className="antialiased">
         <Main />
         <NextScript />
